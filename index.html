@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<body>
+
+
+   
+    <div class="login-box">
+        
+        <h2>TAREFAS</h2>
+      
+            <div class="user-box">
+                <input type="text" id="nomeTarefa" name="" required >
+                <label>Nome tarefa</label>
+                
+            </div>
+            <div class="user-box">
+                <input type="text" id="descricaoTarefa" name="" required >
+                <label>Descrição</label>
+            </div>
+
+            <a href="#" id="botaoAdicionar" onclick="produto.salvar()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                ADICIONAR
+            </a>
+<br><br>
+
+            <div class="content">
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>Nome Tarefa</th>
+                        <th class="center">açoes</th>
+                    </thead>
+                
+                <tbody id="tbody">
+
+                    </tbody>
+                </table>
+                
+            </div>
+        
+    </div>
+    <script src="JS/codigo.js"></script>
+</body>
+</html>
